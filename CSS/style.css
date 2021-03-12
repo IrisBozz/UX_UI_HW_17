@@ -1,0 +1,47 @@
+.nav {
+    background-color:lightgrey;
+    overflow: hidden;
+    height: 90px;
+}
+#logo {   
+    background-image: url("..images/logo.png");
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.nav a {
+    color:rgb(165, 0, 129);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:arial;
+    justify-content: center;
+    float: right;
+}
+
+.content{
+    display: center; 
+    padding: 40px;
+    width: 73%;
+    margin-left: 1%;
+    background-color: rgb(255, 180, 251);
+}
+.content { 
+    text-align: center;
+    width: 500px; 
+    margin: 0 auto; 
+}
+.footer {
+    background-color:lightgrey;
+    overflow: hidden;
+    height: 90px;
+}
+.footer a {
+    color:rgb(165, 0, 129);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family:arial;
+    justify-content: space-evenly;
+
+}
